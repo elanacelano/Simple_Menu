@@ -3,6 +3,10 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+#FBFAE1
+#F1EFB9
+#04DEAD
+#0E9577
 
 body {
 	font-family: 'Josefin Slab', serif;
@@ -36,13 +40,12 @@ ul{
 /*============================== Hamburger Menu ============================*/
 .container {
   display: block;
-  position: fixed;
-  text-align: center;
+/*  position: fixed;
+*/  text-align: center;
   margin: 0 auto;
   z-index: 1;
   padding: .5em;
   padding-left: 0em;
-
   width:100%;
   background-color: white;
 }
@@ -53,7 +56,7 @@ ul{
   display: inline-block;
   width: 35px;
   height: 5px;
-  background-color: #333;
+  background-color: #0E9577;
   margin: 6px 0;
   transition: 0.4s;
 }
@@ -65,6 +68,9 @@ ul{
   margin-top: -14px;
   margin-bottom: 10px;
   transition: 0.4s;
+}
+.p {
+  padding: 3rem;
 }
 
 /* Rotate first bar */
@@ -114,7 +120,7 @@ ul{
 }
 #mobile-menu li a:hover{
   transition: background-color 0.6s ease;
-  background: lightblue/*#D9391C*/;
+  background: light blue/*#D9391C*/;
 
 }
 .menu-hidden{
